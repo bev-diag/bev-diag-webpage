@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BEV Diag: EV battery diagnostics</title>
+<meta name="description" content="Check the health of your electric car's traction battery over a Bluetooth or WiFi OBD adapter.">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href=""><img src="assets/icon.png" alt="">BEV Diag</a>
+  <nav><a href="#features">Features</a><a href="support/">Support</a><a href="privacy/">Privacy</a></nav>
+</div></header>
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <h1>Know the real health of your EV battery</h1>
+      <p class="lead">BEV Diag reads your electric car's traction battery through an ELM327/STN OBD adapter and shows state of health, capacity, cell voltages and more. Starting with the Nissan Leaf.</p>
+      <a class="btn" href="support/">Get support</a>
+      <a class="btn secondary" href="https://github.com/bev-diag/bev-diag-releases">Android test builds</a>
+    </div>
+    <img src="assets/dashboard.png" alt="BEV Diag dashboard showing SOC, SOH, capacity and pack voltage">
+  </div>
+
+  <section id="features">
+    <h2>What it does</h2>
+    <div class="grid">
+      <div class="card"><h3>Battery health</h3><p>State of charge, state of health, capacity in Ah and Hx, read straight from the battery controller.</p></div>
+      <div class="card"><h3>Cell voltages</h3><p>See every cell and spot a weak one before it costs you range.</p></div>
+      <div class="card"><h3>Road test</h3><p>A guided 20 to 80 km/h acceleration test with charts of power and voltage sag.</p></div>
+      <div class="card"><h3>Session recording</h3><p>Record drives with GPS and export them to CSV or JSON. Your data stays on your phone.</p></div>
+      <div class="card"><h3>Bluetooth and WiFi</h3><p>Works with common ELM327 and STN OBD adapters over BLE, Bluetooth or WiFi.</p></div>
+      <div class="card"><h3>Private by design</h3><p>No account, no ads, no analytics. <a href="privacy/">Read the policy.</a></p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Screenshots</h2>
+    <div class="shots">
+      <img src="assets/dashboard.png" alt="Dashboard" loading="lazy">
+      <img src="assets/cells.png" alt="Cell voltages" loading="lazy">
+      <img src="assets/roadtest.png" alt="Road test result" loading="lazy">
+      <img src="assets/sessions.png" alt="Recorded sessions" loading="lazy">
+    </div>
+  </section>
+
+  <section>
+    <h2>Supported cars</h2>
+    <ul>
+      <li><strong>Nissan Leaf AZE0</strong> (2013 to 2017): supported</li>
+      <li><strong>Nissan Leaf ZE1</strong> (2018 and newer): experimental</li>
+    </ul>
+  </section>
+</main>
+<footer class="site"><div class="wrap">
+  <a href="support/">Support</a><a href="privacy/">Privacy policy</a><a href="https://github.com/bev-diag/bev-diag-releases">Test builds</a>
+  <div>&copy; 2026 BEV Diag. Not affiliated with Nissan or Carwings. Nissan and LEAF are trademarks of their owners.</div>
+</div></footer>
+</body></html>
